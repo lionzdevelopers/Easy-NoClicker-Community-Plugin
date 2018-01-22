@@ -37,7 +37,7 @@ if (localStorage.getItem("clickerOnOfffree") === null) {
     localStorage.setItem("clickerOnOfffree", clickerOnOfffree);
 }
 $(document).ready(function () {
-    $("body").append("<div id='settingsendfree' class='settingsendfree'><h5> Easy NoClicker Community Plugin settings : </h5> <button class='buttoner' id='noclickfree'>Click to stop noclick</button>  <button class='buttoner' id='yesclickfree'>Click to start noclick</button>Wait time before going to URL  : <input type='text' id='hoverwaitfree'/>milli seconds<button id='savedatafree' class='savedatafree buttoner'>Save</button></div>");
+    $("body").append("<div id='settingsendfree' class='settingsendfree'><h5> Easy NoClicker Community Plugin settings : </h5> <button class='buttoner' id='noclickfree'>Click to stop noclick</button>  <button class='buttoner' id='yesclickfree'>Click to start noclick</button> Wait time before going to URL  : <input type='text' id='hoverwaitfree'/>milli seconds <button id='savedatafree' class='savedatafree buttoner'>Save</button></div>");
     $('#hoverwaitfree').val(localStorage.getItem("hovertimerfree"));
     $('#settingsendfree').css({
         'padding-left': "5%"
