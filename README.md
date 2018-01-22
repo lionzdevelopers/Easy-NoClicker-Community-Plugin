@@ -9,8 +9,9 @@ Installation:
 
 To install first add Jquery Library and include file in that page.
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="EasyNoClickerCommunityPlugin.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
+<script src="EasyNoClickerCommunityPlugin.js"> </script>
 
 
 Change these variables in file to customize behvaiour.
