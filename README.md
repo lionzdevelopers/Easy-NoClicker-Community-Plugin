@@ -8,7 +8,7 @@ All settings are for domain specific which allows users to set different setting
 Installation:
 
 To install first add Jquery Library and include file in that page.
-
+For Example:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
 
 <script src="EasyNoClickerCommunityPlugin.js"> </script>
